@@ -51,7 +51,7 @@ const Auth = () => {
           : 'https://fabulouscalifornia.com/wp-content/uploads/sites/6/2022/12/qanda-restaurant-oceanside.jpg'}')`
       }}
     >
-      <div className="bg-[radial-gradient(ellipse_at_center,_rgb(240,216,234),_rgb(153,238,153))] p-10 rounded-xl w-full max-w-md text-center space-y-6">
+      <div className="bg-[radial-gradient(ellipse_at_center,_rgb(240,216,234),_rgb(153,238,153))] p-10 rounded-xl w-full max-w-md  text-center space-y-6">
         <h1 className="text-5xl font-bold text-blue-700">
           {isLogin ? 'Login' : 'Sign Up'}
         </h1>
@@ -111,12 +111,12 @@ const Auth = () => {
 
           <button
             type="submit"
-            className="bg-red-700 text-white text-3xl font-semibold px-6 py-2 rounded-md w-full hover:bg-red-800 transition"
+            className="bg-red-700 text-white text-2xl font-semibold px-6 py-2 rounded-md w-full hover:bg-red-800 transition"
           >
             {isLogin ? 'Login' : 'Signup'}
           </button>
 
-          <div className="text-center text-2xl">
+          <div className="text-center text-xl">
             {isLogin ? (
               <>
                 <p className="mb-2 text-2xl">Don't have an account?</p>
@@ -130,7 +130,7 @@ const Auth = () => {
               </>
             ) : (
               <>
-                <p className="mb-2">Already have an account?</p>
+                <p className="mb-2 text-2xl">Already have an account?</p>
                 <button
                   type="button"
                   onClick={() => setIsLogin(true)}
