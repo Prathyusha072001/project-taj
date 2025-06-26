@@ -48,7 +48,7 @@ const Auth = () => {
       style={{
         backgroundImage: `url('${isLogin
           ? 'https://fabulouscalifornia.com/wp-content/uploads/sites/6/2022/12/qanda-restaurant-oceanside.jpg'
-          : 'https://cdn10.bostonmagazine.com/wp-content/uploads/sites/2/2023/10/beacon_restaurants-2.jpg'}')`
+          : 'https://fabulouscalifornia.com/wp-content/uploads/sites/6/2022/12/qanda-restaurant-oceanside.jpg'}')`
       }}
     >
       <div className="bg-[radial-gradient(ellipse_at_center,_rgb(240,216,234),_rgb(153,238,153))] p-10 rounded-xl w-full max-w-md text-center space-y-6">
