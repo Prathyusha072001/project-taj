@@ -110,12 +110,12 @@ const Contactus = () => {
      <div className="my-10">
         <h3 className="text-4xl text-green-400 mb-4">Quick Links</h3>
         <ul className="flex justify-center gap-8 flex-wrap text-2xl underline text-blue-300">
-          <li><a href="/home" className="hover:text-white">Home</a></li>
-          <li><a href="/about" className="hover:text-white">About Us</a></li>
-          <li><a href="/menu" className="hover:text-white">Menu</a></li>
-          <li><a href="/booking" className="hover:text-white">Book a Table</a></li>
-          <li><a href="/careers" className="hover:text-white">Careers</a></li>
-          <li><a href="/contact" className="hover:text-white">Contact</a></li>
+          <li><a href="/Home" className="hover:text-white">Home</a></li>
+          <li><a href="/Matter" className="hover:text-white">About Us</a></li>
+          <li><a href="/Menu" className="hover:text-white">Menu</a></li>
+          <li><a href="/Book" className="hover:text-white">Book a Table</a></li>
+          <li><a href="/Online" className="hover:text-white">Online</a></li>
+          <li><a href="/Auth" className="hover:text-white">Login</a></li>
         </ul>
       </div>
      <p className="italic text-3xl max-w-2xl mx-auto mt-10">
