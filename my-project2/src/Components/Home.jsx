@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaFacebook, FaTwitter, FaInstagram } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -110,12 +111,12 @@ const Contactus = () => {
      <div className="my-10">
         <h3 className="text-4xl text-green-400 mb-4">Quick Links</h3>
         <ul className="flex justify-center gap-8 flex-wrap text-2xl underline text-blue-300">
-          <li><a href="/Home" className="hover:text-white">Home</a></li>
-          <li><a href="/Matter" className="hover:text-white">About Us</a></li>
-          <li><a href="/Menu" className="hover:text-white">Menu</a></li>
-          <li><a href="/Book" className="hover:text-white">Book a Table</a></li>
-          <li><a href="/Online" className="hover:text-white">Online</a></li>
-          <li><a href="/Auth" className="hover:text-white">Login</a></li>
+          <li><Link to="/Home" className="hover:text-white">Home</Link></li>
+  <li><Link to="/Matter" className="hover:text-white">About Us</Link></li>
+  <li><Link to="/Menu" className="hover:text-white">Menu</Link></li>
+  <li><Link to="/Book" className="hover:text-white">Book a Table</Link></li>
+  <li><Link to="/Online" className="hover:text-white">Online</Link></li>
+  <li><Link to="/Auth" className="hover:text-white">Login</Link></li>
         </ul>
       </div>
      <p className="italic text-3xl max-w-2xl mx-auto mt-10">
