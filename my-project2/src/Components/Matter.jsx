@@ -2,7 +2,7 @@ import React from 'react';
 
 const Matter = () => {
   return (
-    <div className="mt-[5%]">
+    <div className="mt-[9%]">
       {/* Parallax Background Section */}
       <div
         className="bg-fixed bg-center bg-cover bg-no-repeat px-6 py-10 text-justify"

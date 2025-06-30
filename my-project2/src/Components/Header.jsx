@@ -39,7 +39,7 @@ const Header = () => {
           menuOpen ? 'flex' : 'hidden'
         } md:flex flex-col md:flex-row absolute md:static top-full left-0 
     bg-black md:bg-transparent w-full md:w-auto 
-    text-white text-4xl gap-4 px-6 py-4 md:p-0 z-50 transition-all duration-300 ease-in-out`}>
+    text-white text-3xl gap-4 px-6 py-4 md:p-0 z-50 transition-all duration-300 ease-in-out`}>
           <li><NavLink to="/Home" onClick={handleLinkClick} className="hover:bg-yellow-700 rounded px-2">Home</NavLink></li>
           <li><NavLink to="/Menu" onClick={handleLinkClick} className="hover:bg-yellow-700 rounded px-2">Menu</NavLink></li>
           <li><NavLink to="/Matter" onClick={handleLinkClick} className="hover:bg-yellow-700 rounded px-2">AboutUs</NavLink></li>

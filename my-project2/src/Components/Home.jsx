@@ -89,11 +89,13 @@ const Contactus = () => {
       <p className="text-2xl">Phone: 676767777</p>
       <p className="text-2xl">Email: taj@gmail.com</p>
       <p className="text-2xl mb-4">Follow us: www.crazyttaj.com</p>
+
       <div className="flex justify-center gap-6 text-5xl animate-pulse mb-8">
         <FaInstagram className="text-red-400" />
         <FaTwitter className="text-blue-400" />
         <FaFacebook className="text-yellow-400" />
       </div>
+
       <div className="mb-6">
         <h3 className="text-4xl text-yellow-400 mb-4">Our Branches</h3>
         <ul className="space-y-2 text-2xl">
@@ -104,11 +106,22 @@ const Contactus = () => {
           <li>Chennai - Marina Beach</li>
         </ul>
       </div>
-      <p className="italic text-3xl max-w-2xl mx-auto">
+
+     <div className="my-10">
+        <h3 className="text-4xl text-green-400 mb-4">Quick Links</h3>
+        <ul className="flex justify-center gap-8 flex-wrap text-2xl underline text-blue-300">
+          <li><a href="/home" className="hover:text-white">Home</a></li>
+          <li><a href="/about" className="hover:text-white">About Us</a></li>
+          <li><a href="/menu" className="hover:text-white">Menu</a></li>
+          <li><a href="/booking" className="hover:text-white">Book a Table</a></li>
+          <li><a href="/careers" className="hover:text-white">Careers</a></li>
+          <li><a href="/contact" className="hover:text-white">Contact</a></li>
+        </ul>
+      </div>
+     <p className="italic text-3xl max-w-2xl mx-auto mt-10">
         Taj Hotels is renowned for its world-class service, timeless heritage,
         and luxurious experiences. Come experience royalty with us!
       </p>
-      
     </section>
   );
 };

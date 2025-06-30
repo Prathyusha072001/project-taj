@@ -69,11 +69,11 @@ const Online = () => {
 
       {/* Menu */}
       <h2 className="text-4xl font-bold mb-6 text-center">🍽 Online Menu</h2>
-      <div className="grid  grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
+      <div className="grid gap-6 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 ">
         {menuItems.map((item) => (
           <div
             key={item.id}
-            className="bg-white border border-gray-200 shadow-md rounded-lg p-4 text-center text-3xl"
+            className="bg-white border border-gray-200 shadow-md rounded-lg p-4 text-center text-3xl overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300"
           >
             <img
               src={item.imgSrc}
