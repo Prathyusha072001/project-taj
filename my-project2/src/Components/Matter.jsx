@@ -2,7 +2,7 @@ import React from 'react';
 
 const Matter = () => {
   return (
-    <div className="mt-[9%]">
+    <div className="mt-[5%]">
       {/* Parallax Background Section */}
       <div
         className="bg-fixed bg-center bg-cover bg-no-repeat px-6 py-10 text-justify"
@@ -12,7 +12,7 @@ const Matter = () => {
         }}
       >
         <div className="bg-green-100 bg-opacity-90 p-10 rounded-lg max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl text-center bg-wheat mx-auto w-1/2 py-2 font-semibold rounded-md">
+          <h2 className="text-3xl md:text-4xl text-center bg-wheat mx-auto w-1/2 py-2 mt-10 font-semibold rounded-md">
             About Us
           </h2>
 
